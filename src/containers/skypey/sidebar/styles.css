@@ -1,0 +1,41 @@
+.Sidebar {
+  width: 320px;
+  background-color: rgba(32, 32, 35, 1);
+  height: 100%;
+  border-right: 1px solid rgba(189, 189, 192, 0.1);
+  transition: width 0.3s;
+  overflow: scroll;
+}
+
+.Sidebar ul {
+  padding-left: 0;
+}
+
+
+.User {
+  text-align: left;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.User:hover {
+  transition: all 0.3s;
+  background: black;
+}
+
+.User__details {
+  display: inline-block;
+  font-size: 10px;
+  max-width: 200px;
+  padding-left: 10px;
+}
+
+.User_details-name {
+  font-size: 12px;
+}
+
+.User_pic {
+  display: inline-block;
+  max-width: 60px;
+  border-radius: 100px;
+}
